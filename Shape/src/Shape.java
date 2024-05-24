@@ -42,3 +42,9 @@ class ShapeName {
         System.out.println("Shape name: " + shape.getName());
     }
 }
+
+class Test {
+    public static void test(Shape shape) {
+        System.out.println("test");
+    }
+}
