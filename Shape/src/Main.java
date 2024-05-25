@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Circle circle = new Circle();
-        Oval oval = new Oval();
-        Square square = new Square();
-        Triangle triangle = new Triangle();
-        Trapezium trapezium = new Trapezium();
+        Shape circle = new Circle();
+        Shape oval = new Oval();
+        Shape square = new Square();
+        Shape triangle = new Triangle();
+        Shape trapezium = new Trapezium();
         ShapeName.printName(circle);
         ShapeName.printName(square);
         ShapeName.printName(oval);
